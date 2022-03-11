@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: monospace;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  background-image: url("/images/pizza-image.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 30px;
+}
+.show-menu-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  margin-top: 5%;
+  border: 0;
+  font-family: cursive;
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+  padding: 0 2%;
+  background-color: rgba(0, 0, 0, 0.582);
+  z-index: 100;
+}
+.navbar :hover {
+  background-color: rgb(230, 225, 225);
+  color: black;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  padding: 12px;
+}
+.menu-area {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.menu-title {
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.menu-title h1 {
+  color: white;
+}
+
+.menu {
+  width: 75vw;
+  /* height: 80vh; */
+  background-color: #f4f4f4;
+}
+
+.order-now-btn {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 5px 10px;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+}
+
+.menu-options {
+  width: 100%;
+  height: 80px;
+  background-color: blueviolet;
+  display: flex;
+  border: 0.5px solid rgb(92, 92, 92);
+  border-bottom: 0;
+}
+
+.button-2 {
+  width: 33.33%;
+  border: 0;
+  color: white;
+  background-color: black;
+  font-family: cursive;
+}
+
+.button-2:hover {
+  background-color: rgb(185, 26, 26);
+}
+
+.menu-product {
+  border-bottom: 0.5px solid rgb(190, 190, 190);
+  margin: 3%;
+  padding: 3% 0;
+}
+.product-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.product-price {
+  border-radius: 5px;
+  background-color: gray;
+  padding: 5px;
+}
+
+.about {
+  width: 100vw;
+  background-color: #b36a5e;
+  padding: 10vw;
+}
+
+.about-title {
+  width: 100%;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: -7%;
+}
+
+.about-desc {
+  width: 100%;
+  height: 25%;
+  /* background-color: burlywood; */
+  font-size: 13px;
+}
+
+.about-cheff {
+  width: 100%;
+  height: 20vh;
+  /* background-color: teal; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cheff {
+  width: 50%;
+  margin-top: 3%;
+}
+.cheff h2 {
+  margin-bottom: 5%;
+}
+.cheff-image {
+  width: 15%;
+  height: 75%;
+}
+
+.about-image {
+  width: 100%;
+  margin-top: 5%;
+}
+.about-image::before {
+  content: "";
+  position: absolute;
+  width: 80vw;
+  height: 88%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.contact {
+  width: 100vw;
+  background-color: #889696;
+  color: rgb(214, 211, 211);
+}
+
+.contact-image::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 94%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.contact-title {
+  padding: 10%;
+}
+.contact-title h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact-title h2 {
+  font-size: 18px;
+}
+.middle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.input {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.inputs {
+  font-size: 15px;
+  margin-top: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 8px;
+}
+.button {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  margin-top: 20px;
+  border: 0;
+}
+.made-by {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* UTILS */
+
+.img-circle {
+  border-radius: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-active {
+  background-color: rgb(185, 26, 26);
+}

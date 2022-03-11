@@ -1,0 +1,98 @@
+INPUT 
+        shtypja e buttonave "pizza" "salad" "starter"
+
+
+LLOGARITJE
+
+        Duame qe kodi te ekzektuohet vetem nese user shtyp nje nga buton =>
+
+        1 regjistrojme tre funksion onPizzaClick(), onSaladClick(), onStarterClick() 
+            tek butoni ["pizza", "salad", "starter"]
+        2 deklarojme tre funksion [ onPizzaClick(), onSaladClick(), onStarterClick() ] tek js
+
+       
+
+
+OUTPUT
+        Kur user shtyp butonin psh: onSaladClick()
+
+        1 ndryshojme menun
+                a. Nryshojme cdo produkt =>
+                    a1. Ndrysho titul
+                    a2. Ndrysho ingredient
+                    a3. Ndrysho cmimin
+
+
+
+_____________________________________________________________________________________
+
+Ndrysho emrat e produkteve kur shtypen butonat e kategorive
+
+0. Deklarojme 3 vektore per te ruajtur emrat e produkteve per secilen kategori, jasht funksioneve
+1. Marrim elementet e butonave te produkteve
+2. Per cdo ndryshojme emrat e produkteve, kur shtypet butoni(brenda funksionit)
+
+_____________________________________________________________________________________
+
+Order feature 
+
+//INPUT
+0. Deklarojme nje vektor qe do te ruaj emrat e produktuve te porosise[vetem produkteve qe jane porositur]
+                ne fillim te programit
+
+1. Marrim emrin e produktik qe user porosit, kur shtypet butoni i produkt
+
+//LLOGARITJE
+        ['margarita', 'pizza1']      margarita
+0. deklarojme nje variable 'isPresent' = false
+1. krahasojme cdo element te vektorit me emrin e marre nga perdoruesi(me cikel)
+2. nese elementi i vektori === emrin e perdoruesit isPresent  = true
+        nese nuk eshte do ta leme sic eshte
+
+//OUTPUT
+0. kontrollojme variablin isPresent 
+        nese eshte true shtojm sasine me 1
+        nese eshte false shtojme produktin me sasaine 1 dhe cmimin
+_____________________________________________________________________________________
+
+Kur shtypet nje nga butonat e produkteve
+
+1) marrim emrin e buttonit(produktit) dhe e ruajme ne nje variable
+2) Shtojme elementet e meposhtem ne HTML
+        a. div me class order-product
+                a1. h2 me class product-name dhe text emrin e buttonit
+                a2. nje input me class product-amount dhe vlere 1
+                a3. nje input me class product-price dhe vlere 300
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pizzApp | Best pizzas in town</title>
+    <link rel="stylesheet" href="css/project.css" />
+    <script
+      src="https://kit.fontawesome.com/5cc0fd6a54.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#main" class="link">HOME</a>
+      <a href="#menu" class="link">MENU</a>
+      <a href="#about" class="link">ABOUT</a>
+      <a href="#contact" class="link">CONTACT</a>
+    </div>
+    <div class="main" id="main">
+      <h1>THIN</h1>
+      <h1>CRUST PIZZA</h1>
+      <a href="#menu" class="show-menu-btn">LET ME SEE THE MENU</a>
+    </div>
+    <div class="menu-area" id="menu">
+      <div class="menu-title">
+        <h1>THE MENU</h1>
+        <a href="/order.html" class="order-now-btn">ORDER NOW</a>
+      </div>
+      <div class="menu">
+        <div class="menu-options">
+          <button class="button-2 btn-active" onclick="onPizzaClick()">
+            PIZZA
+          </button>
+          <button class="button-2" onclick="onSaladClick()">SALAD</button>
+          <button class="button-2" onclick="onStarterClick()">STARTER</button>
+        </div>
+        <div class="menu-product">
+          <div class="product-title">
+            <h1 id="product1-title">Margherita</h1>
+            <h1 class="product-price" id="product1-price">$12.50</h1>
+          </div>
+          <h1 id="product1-ingredient">
+            Fresh tomatoes, fresh mozzarella, fresh basil
+          </h1>
+        </div>
+        <div class="menu-product">
+          <div class="product-title">
+            <h1 id="product2-title">Formaggio</h1>
+            <h1 class="product-price" id="product2-price">$15.50</h1>
+          </div>
+          <h1 id="product2-ingredient">
+            Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+          </h1>
+        </div>
+        <div class="menu-product">
+          <div class="product-title">
+            <h1 id="product3-title">Chicken</h1>
+            <h1 class="product-price" id="product3-price">$17.00</h1>
+          </div>
+          <h1 id="product3-ingredient">
+            Fresh tomatoes, mozzarella, chicken, onions
+          </h1>
+        </div>
+        <div class="menu-product">
+          <div class="product-title">
+            <h1 id="product4-title">Pineapple'o'clock</h1>
+            <h1 class="product-price" id="product4-price">$16.50</h1>
+          </div>
+          <h1 id="product4-ingredient">
+            Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <div class="about-title">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="about-desc">
+        <h2>
+          The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </h2>
+      </div>
+      <div class="about-cheff">
+        <div class="cheff">
+          <h2>The Chef? Mr. Italiano himself</h2>
+          <h2>We are proud of our interiors.</h2>
+        </div>
+        <div class="cheff-image">
+          <img class="img-circle" src="/images/cheff.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="images/piceria.jpg" alt="" />
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="image contact-image">
+        <img src="images/street.jpg" alt="" />
+      </div>
+      <div class="contact-title">
+        <h1>CONTACT</h1>
+        <h2>
+          FIND US AT SOME ADDRESS AT SOME PLACE OR CALL US AT 05050515-122330
+        </h2>
+        <h2 class="middle">
+          FLY! WE OFFER FULL-SERVICE CATERING FOR ANY EVENT, LARGE OR SMALL. WE
+          UNDERSTAND YOUR NEEDS AND WE WILL CATER THE FOOD TO SATISFY THE
+          BIGGEST CRITERIA OF THEM ALL, BOTH LOOK AND TASTE.
+        </h2>
+        <h2>
+          RESERVE A TABLE, ASK FOR TODAY'S SPECIAL OR JUST SEND US A MESSAGE:
+        </h2>
+        <div class="input">
+          <input type="text" class="inputs" placeholder="NAME" />
+          <input type="text" class="inputs" placeholder="HOW MANY PEOPLE" />
+          <input type="text" class="inputs" placeholder="11/16/2022 08:00 PM" />
+          <input
+            type="text"
+            class="inputs"
+            placeholder="MESSAGE / SPECIAL REQUIREMENTS"
+          />
+          <button class="button">SEND MESSAGE</button>
+        </div>
+      </div>
+      <div class="made-by">
+        <h2>MADE BY:EKLID/KLEMENT</h2>
+      </div>
+    </div>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+Fixing all image src at index.html => add images/ to every src
+Fix category selected at onPizzaClick onSaladClick onStarterClick
+    1.Select all 3 buttons at the start of page => before and outside the funcions
+    2.brenda dhe ne fillim te cdo funcions 
+        a. fshin backgoundin e cdo butoni[ pizzaBtnElement.style.backgourdColor = ""]
+        b  . lyen backgoundin e butonnit te shtypur psh onPizzaClick lyejm backgoundin e pizzaBtn
+
+Hover effect for order.html buttons
